@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Document</title>
-</head>
+<link href="src/css/common.6069b.css" rel="stylesheet"><link href="src/css/index.css" rel="stylesheet"></head>
 
 <body>
   <!-- 引入公共页头 -->
-  <%= require("html-loader!../common/header/index.html") %>
+  <header class="header-container"> <nav class="nav-list wow fadeInDown"> <a href="#profile" class="nav-item">Profile</a> <a href="#works" class="nav-item">Works</a> <a href="#price" class="nav-item">Price</a> <a href="#contact" class="nav-item">Contact</a> </nav> </header>
     <section class="banner-container wow fadeIn">
       <img src="/public/images/banner.jpg" class="bg-img">
       <a href="https://www.youtube.com/channel/UCvyFCPSqoj5mkd1_o_1R5Ug">
@@ -266,7 +266,7 @@
       </form>
     </section>
     <!-- 引入公共页尾 -->
-    <%= require("html-loader!../common/footer/index.html") %>
-</body>
+    <footer class="footer-container"> <div class="links wow fadeInDown"> <a href="#profile">Profile</a> <a href="#works">Works</a> <a href="#price">Price</a> </div> <div class="copyright wow fadeInDown"> Copy right(c) Katayama Kenichi </div> </footer> <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src/js/vendors~index.6069b.js"></script><script src="src/js/index.6069b.js"></script></body>
  
 </html>
